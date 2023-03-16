@@ -1,7 +1,6 @@
-// Setup
-const myArray = [];
-for(let i = 9; i >= 1; i -= 2){
-  myArray.push(i);
+function checkEqual(a, b) {
+  return a == b ? "Equal" : "Not Equal";
+
 }
 
-// Only change code below this line
+checkEqual(1, 2);
